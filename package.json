@@ -1,0 +1,39 @@
+{
+  "name": "nestjs-db-manager",
+  "version": "1.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": {
+    "name": "Yash Trivedi",
+    "email": "yash.trivedi@simformsolutions.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^10.3.8",
+    "@nestjs/core": "^10.3.8",
+    "pg": "^8.11.5",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yasht-simform/nestjs-db-manager.git"
+  },
+  "keywords": [  
+  "nestjs",
+  "postgres",
+  "pg",
+  "db-manager",
+  "typeorm"
+  ]
+}
